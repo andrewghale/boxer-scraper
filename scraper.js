@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 const cheerio = require('cheerio')
 
-const url = 'https://en.wikipedia.org/wiki/Dereck_Chisora'
+const url = 'https://en.wikipedia.org/wiki/George_Foreman'
 
 function searchBoxer() {
   return fetch(url)
